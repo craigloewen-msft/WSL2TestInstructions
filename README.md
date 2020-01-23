@@ -63,4 +63,4 @@ Once you see a green message saying 'done' you'll know it's ready.
 
 ### Connect to the sample sites
 
-Open up Microsoft Edge and connect to https://localhost:7000 you'll see a message there that will prompt you to click on it to connect to another site: https://localhost:8000 . Please verify that both of these work and you're done!
+Open up Microsoft Edge and connect to http://localhost:7000 you'll see a message there that will prompt you to click on it to connect to another site: http://localhost:8000 . Please verify that both of these work and you're done!
