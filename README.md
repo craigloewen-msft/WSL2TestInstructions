@@ -38,6 +38,25 @@ It's recommended to install 'Ubuntu' from the store. And when you need to uninst
 - Ensure your Ubuntu distro works properly and was converted successfully.
    - You check the version of your distro by running `wsl -l -v` in Powershell.
 
+## Interop and accessing Linux files
+
+Interop is one of the coolest features in WSL, so let's make sure it works.
+
+### Run a Windows command
+
+Run `powershell.exe` in your bash prompt. You should get access to a Powershell prompt without any errors. To go back to your bash shell in WSL simply type `exit`.
+
+### Use interop to access Linux files in \\wsl$\
+
+Type in these commands to open up a File Explorer Window in your home directory.
+
+```
+cd
+explorer.exe .
+```
+
+Please check that the Window opened correctly and that you can view the Linux files in your home directory.
+
 ## Networking with Docker-Compose!
 
 Next we're going to test networking using `localhost` on Windows. 
