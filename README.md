@@ -65,9 +65,11 @@ Next we're going to test networking using `localhost` on Windows.
 
 First make sure you have docker, and docker-compose installed.
 
-If you're running Ubuntu-18.04 you can use the script included in this repo by running:
+The easiest way to install them is to make sure you are using Ubuntu 18.04 and then using the script provided in this repo by running: 
 
 `sudo ./installDockerUbuntu.sh`
+
+Or if you want to install it manually you can use [this link](https://docs.docker.com/install/linux/docker-ce/ubuntu/) to install Docker, and [this link](https://docs.docker.com/compose/install/) to install Docker-Compose.
 
 ### Run the app
 
