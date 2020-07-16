@@ -57,6 +57,10 @@ explorer.exe .
 
 Please check that the Window opened correctly and that you can view the Linux files in your home directory.
 
+## VS Code Remote Smoke tests
+
+Please follow [the instructions here](https://github.com/microsoft/vscode-remote-release/wiki/Remote-WSL-Smoke-Test) to complete the VS Code Remote smoke tests.
+
 ## Networking with Docker-Compose!
 
 Next we're going to test networking using `localhost` on Windows. 
